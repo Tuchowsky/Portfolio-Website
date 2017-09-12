@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  height: 100%;
+  background-color: white;
+  font-family: 'Raleway', sans-serif; }
+
+.container-fluid {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto 100%; }
+
+#home {
+  background-color: black; }
+
+#about {
+  background-image: url("../gfx/background-tuchowsky-about.jpg"); }
+
+#music {
+  background-image: url("../gfx/background-tuchowsky-music.jpg"); }
+
+#contact {
+  background-image: url("../gfx/background-tuchowsky-contact.jpg"); }
+
+.one {
+  background: red;
+  height: 40vw; }
+
+.one-in {
+  background: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; }
+
+.no-shape {
+  display: flex;
+  width: 40%;
+  height: 110%;
+  background-color: yellow;
+  z-index: -1; }

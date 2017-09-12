@@ -1,0 +1,63 @@
+$body-color: white
+// $body-color: #0a1016
+$menu-font-color: #e2e2e8
+$contact-font-color: #020816
+
+$hader-color: #5a5c51
+$content-color: #024277
+$footer-color: #aa863a
+
+
+$home-photo: url("../gfx/background-tuchowsky-home.jpg")
+$about-photo: url("../gfx/background-tuchowsky-about.jpg")
+$music-photo: url("../gfx/background-tuchowsky-music.jpg")
+$contact-photo: url("../gfx/background-tuchowsky-contact.jpg")
+
+
+*
+    margin: 0
+    padding: 0
+
+body, html 
+    height: 100%
+    background-color: $body-color
+    font-family: 'Raleway', sans-serif
+    
+.container-fluid
+    background-repeat: no-repeat
+    background-position: top
+    background-size: auto 100%
+    
+#home   
+    background-color: black
+    
+#about
+    background-image: $about-photo
+ 
+#music
+    background-image: $music-photo
+  
+#contact
+    background-image: $contact-photo
+
+
+
+.one
+    background: red
+    height: 40vw
+
+.one-in
+    background: white
+    height: 50px
+    display: flex
+    justify-content: center
+    align-items: center
+    z-index: 1
+    
+.no-shape
+    display: flex
+    width: 40%
+    height: 110%
+    background-color: yellow
+    z-index: -1
+
