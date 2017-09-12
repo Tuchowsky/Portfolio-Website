@@ -13,14 +13,7 @@ module.exports = function(grunt){
 				files: ['./src/styles/main.sass'],
 				tasks: ['sass', 'build']
             }
-        },
-        sass: {
-			dist: {
-				files: {
-				'styles/main.css': 'src/styles/main.sass', 
-				}
-			}
-		},    
+        },   
         mustache_render: {
             options: {},
             dist: {
@@ -34,12 +27,19 @@ module.exports = function(grunt){
                 ]
             }
         },
+        sass: {
+			dist: {
+				files: {
+				'build/styles/main.css': 'src/styles/main.sass', 
+				}
+			}
+		}, 
         copy: {
             css: {
                 files: [
                     {
                         expand: true,
-                        cwd: 'styles',
+                        cwd: 'src/styles',
                         src: '**',
                         dest: 'build/styles/'
                     }
@@ -49,7 +49,7 @@ module.exports = function(grunt){
                 files: [
                     {
                         expand: true,
-                        cwd: 'scripts',
+                        cwd: 'src/scripts',
                         src: '**',
                         dest: 'build/scripts/'  
                     }
@@ -59,7 +59,7 @@ module.exports = function(grunt){
                 files: [
                     {
                         expand: true,
-                        cwd: 'gfx',
+                        cwd: 'src/gfx',
                         src: '**',
                         dest: 'build/gfx/'
                     }
@@ -69,7 +69,7 @@ module.exports = function(grunt){
                 files: [
                     {
                         expand: true,
-                        cwd: 'svg',
+                        cwd: 'src/svg',
                         src: '**',
                         dest: 'build/svg/' 
                     }

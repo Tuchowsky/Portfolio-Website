@@ -17,7 +17,8 @@
   "devDependencies": {
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^2.0.0"
+    "grunt-sass": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
