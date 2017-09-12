@@ -58,6 +58,9 @@ body, html
     height: 100%
     background-color: black
     position: relative
+    border-radius: 50%
+    //box-shadow: 0 0 3px 3px grey
+    // border: solid 1px white
 // .animation
 //     display: flex
 //     margin-left: 10%
@@ -68,18 +71,18 @@ body, html
 //     align-self: center
 //     margin: 0 auto
 .animation
-    width: 100%
-    height: 100%
+    width: 180%
+    height: 160%
     position: absolute
     top: auto
     left: auto
     transition: 1s
-    animation: imageMove 2s infinite cubic-bezier(0.42,0,0.58,1)
+    animation: imageMove 3s infinite cubic-bezier(0.42,0,0.58,1)
 
 .link
     display: flex
     text-decoration: none
-    color: purple
+    color: black
     z-index: 1
     font-weight: bold
 
@@ -87,7 +90,7 @@ body, html
     0%
         transform: rotate(0deg)
     50%
-        transform: rotate(30deg)
+        transform: rotate(20deg)
     100%
         transform: rotate(0deg)
     
