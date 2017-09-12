@@ -47,9 +47,10 @@ body, html {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
-  transition: 1s; }
+  top: auto;
+  left: auto;
+  transition: 1s;
+  animation: imageMove 2s infinite cubic-bezier(0.42, 0, 0.58, 1); }
 
 .link {
   display: flex;
@@ -62,6 +63,6 @@ body, html {
   0% {
     transform: rotate(0deg); }
   50% {
-    transform: rotate(10deg); }
+    transform: rotate(30deg); }
   100% {
     transform: rotate(0deg); } }
