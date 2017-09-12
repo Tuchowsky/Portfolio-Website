@@ -9,9 +9,9 @@ module.exports = function(grunt){
                 files: ['src/{,**/}*.*'],
                 tasks: ['build']
             },
-	  		sass: {
-				files: ['./src/styles/main.sass'],
-				tasks: ['sass', 'build']
+            sass: {
+				files: ['src/styles/main.sass'],
+				tasks: ['sass'],
             }
         },   
         mustache_render: {
@@ -85,5 +85,5 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-mustache-render');
     grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-sass');
-    grunt.registerTask('default', []);
+    grunt.registerTask('default', ['watch', 'sass', 'copy']);
 };
