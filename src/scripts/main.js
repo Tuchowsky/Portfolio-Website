@@ -1,9 +1,10 @@
 $( document ).ready(function() {
     $('.no-shape').mouseover(function(){
-        $('.animation').css({'transform': 'scale(2,2)'});
+        $('.animation').css({'width': '220%', 'height': '300%'});
     });
     $('.no-shape').mouseleave(function(){
-        $('.animation').css({'transform': 'scale(1,1)'});
+        $('.animation').css({'width': '100%', 'height': '100%'});
+        
     });
 });
 
