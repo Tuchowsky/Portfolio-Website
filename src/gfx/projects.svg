@@ -1,0 +1,35 @@
+<svg width="56" height="38" viewBox="0 0 56 38" xmlns="http://www.w3.org/2000/svg">
+<title>Page 1</title>
+
+<defs>
+            <style>
+            
+
+            
+                .cls-1{
+                    stroke:#FFE8D1;
+                    stroke-width:1px;
+                    stroke-miterlimit: 0;
+                    stroke-dasharray: 300;
+                    stroke-dashoffset: 0;
+                    animation-delay: 2s;
+                    animation: draw 10s ease-out infinite;
+                }
+
+                @-webkit-keyframes draw{
+                    from{
+                    stroke-dashoffset: 300;
+                    }to{
+                    stroke-dashoffset: 0;
+                    }
+                }
+                
+                                        
+            </style>
+        </defs>
+
+
+
+
+<path class="cls-1" d="M13.574 7.484L0 37.606h40.105L55.32 0" fill="#2F3F73" fill-rule="evenodd"/>
+</svg>
