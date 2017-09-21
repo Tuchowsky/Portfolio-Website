@@ -6,6 +6,14 @@ $( document ).ready(function() {
         $('.animation').css({'width': '100%', 'height': '100%'});
         
     });
+
+    $('.open-menu').click(function(){
+        $('#my-sidenav').css({'width': '100%'});
+    });
+    $('.close-btn').click(function(){
+        $('#my-sidenav').css({'width': '0'});
+    });
+
 });
 
 
