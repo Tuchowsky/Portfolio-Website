@@ -131,37 +131,38 @@ body, html
     100%
         transform: rotate(0deg)
 
-// left side menu
+// projects container
 /* The side navigation menu */
-.side-nav
+.side-container
     height: 100%
     width: 0
     position: fixed
     z-index: 1
-    top: 0
-    left: 0
-    background-color: #111
     overflow-x: hidden
     padding-top: 60px
     transition: 0.5s
 
+.projects-sidenav
+    top: 0
+    left: 0
+    background-color: #111
 
 /* The navigation menu links */
-.side-nav a
+.projects-sidenav a
     padding: 8px 8px 8px 32px
     text-decoration: none
     font-size: 25px
     color: #818181
     display: block
-    transition: 0.3s
+    transition: 0.5s
 
 /* Wen you mouse over the navigation links, change their color */
-.side-nav a:hover, .offcanvas a:focus
+.projects-sidenav a:hover
     color: #f1f1f1
 
 
 /* Position and style the close button (top right corner) */
-.side-nav .close-btn 
+.projects-sidenav .projects-closebtn 
     position: absolute
     top: 0
     right: 25px
@@ -169,16 +170,28 @@ body, html
     margin-left: 50px
 
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main 
-    transition: margin-left .5s
-    padding: 20px
-
-
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) 
-    .side-nav
+    .projects-sidenav
         padding-top: 15px
-    .side-nav a 
+    .projects-sidenav a 
         font-size: 18px
 
+.projects-container
+    position: absolute
+    left: 0
+    top: 0
+
+// about container
+.about-sidenav
+    top: 0
+    right: 0
+    background-color: #123456
+
+.about-sidenav a
+    padding: 8px 8px 8px 32px
+    text-decoration: none
+    font-size: 25px
+    color: #818181
+    display: block
+    transition: 0.5s
