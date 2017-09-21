@@ -5,7 +5,7 @@ $( document ).ready(function() {
     // $('.no-shape').mouseleave(function(){
     //     $('.animation').css({'width': '100%', 'height': '100%'});
         
-    });
+    // });
     //projects container
     $('.projects-link').click(function(){
         $('#projects-sidenav').css({'width': '100%'});
