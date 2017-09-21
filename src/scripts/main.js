@@ -20,6 +20,20 @@ $( document ).ready(function() {
     $('.about-closebtn').click(function(){
         $('#about-sidenav').css({'width': '0'});
     });
+    //home container
+    $('.home-link').click(function(){
+        $('#home-sidenav').css({'height': '100%'});
+    });
+    $('.home-closebtn').click(function(){
+        $('#home-sidenav').css({'height': '0'});
+    });
+    //home container
+    $('.contact-link').click(function(){
+        $('#contact-sidenav').css({'height': '100%'});
+    });
+    $('.contact-closebtn').click(function(){
+        $('#contact-sidenav').css({'height': '0'});
+    });
 
 });
 
