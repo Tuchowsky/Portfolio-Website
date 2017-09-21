@@ -7,7 +7,7 @@
 
             
                 .cls-1{
-                    stroke:#FFE8D1;
+                    stroke:#312200;
                     stroke-width:1px;
                     stroke-miterlimit: 0;
                     stroke-dasharray: 600;
@@ -18,7 +18,7 @@
 
                 @-webkit-keyframes draw{
                     from{
-                    stroke-dashoffset: 600;
+                    stroke-dashoffset: 1200;
                     }to{
                     stroke-dashoffset: 0;
                     }

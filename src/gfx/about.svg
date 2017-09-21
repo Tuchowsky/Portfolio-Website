@@ -13,12 +13,12 @@
                     stroke-dasharray: 200;
                     stroke-dashoffset: 0;
                     animation-delay: 2s;
-                    animation: draw 10s ease-out infinite;
+                    animation: draw 13s ease-out infinite;
                 }
 
                 @-webkit-keyframes draw{
                     from{
-                    stroke-dashoffset: 200;
+                    stroke-dashoffset: 400;
                     }to{
                     stroke-dashoffset: 0;
                     }

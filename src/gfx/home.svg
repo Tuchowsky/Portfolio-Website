@@ -7,7 +7,7 @@
 
             
                 .cls-1{
-                    stroke:#FFE8D1;
+                    stroke:#371B00;
                     stroke-width:1px;
                     stroke-miterlimit: 0;
                     stroke-dasharray: 500;

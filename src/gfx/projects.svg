@@ -7,18 +7,18 @@
 
             
                 .cls-1{
-                    stroke:#FFE8D1;
+                    stroke:#ADB4CA;
                     stroke-width:1px;
                     stroke-miterlimit: 0;
                     stroke-dasharray: 300;
                     stroke-dashoffset: 0;
                     animation-delay: 2s;
-                    animation: draw 10s ease-out infinite;
+                    animation: draw 14s ease-out infinite;
                 }
 
                 @-webkit-keyframes draw{
                     from{
-                    stroke-dashoffset: 300;
+                    stroke-dashoffset: 600;
                     }to{
                     stroke-dashoffset: 0;
                     }
