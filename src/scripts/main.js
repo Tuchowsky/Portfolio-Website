@@ -6,12 +6,19 @@ $( document ).ready(function() {
         $('.animation').css({'width': '100%', 'height': '100%'});
         
     });
-
-    $('.open-menu').click(function(){
-        $('#my-sidenav').css({'width': '100%'});
+    //projects container
+    $('.projects-link').click(function(){
+        $('#projects-sidenav').css({'width': '100%'});
     });
-    $('.close-btn').click(function(){
-        $('#my-sidenav').css({'width': '0'});
+    $('.projects-closebtn').click(function(){
+        $('#projects-sidenav').css({'width': '0'});
+    });
+    //about container
+    $('.about-link').click(function(){
+        $('#about-sidenav').css({'width': '100%'});
+    });
+    $('.about-closebtn').click(function(){
+        $('#about-sidenav').css({'width': '0'});
     });
 
 });
